@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="UTF-8">
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- 轮播css -->
+<link href="dist/css/carousel.css" rel="stylesheet">
+<!-- 顶端导航条样式 -->
+<link href="dist/css/navbar-fixed-top.css" rel="stylesheet">
+
+<title>金融中介营销管理系统</title>
+</head>
+	<body>
+	    <!-- Fixed navbar -->
+	    <!--navbar-default默认   navbar-brand透明  navbar-inverse黑色的-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">金融中介营销管理系统</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#contact">一个连接</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">下拉选<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">一个靠右连接</a></li>
+            <li><a href="../navbar-static-top/">一个靠右连接</a></li>
+            <li class="active"><a href="./">一个靠右连接 <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+    	<div class="navbar-collapse collapse">
+    		<ul class="nav navbar-nav">
+    			<li class="category-item"><a>客户</a></li>
+    			<li class="category-item"><a>流程</a></li>
+    			<li class="category-item"><a>交易</a></li>
+    			<li class="category-item"><a>交易</a></li>
+    		</ul>
+    		<div id="heard-search" calss="nav navbar-nav navbar-right" >
+    	
+    		<form class="navbar-form navbar-right">
+            <input class="form-control" placeholder="Search..." type="text">
+            <input class="search-btn iconfont" value="搜索" type="submit">
+          </form>
+    	</div>
+    	</div>
+    	
+    </div>
+	<div class="container">
+	
+<div id="myCarousel" class="carousel slide" >
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators ">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="dist/img/IMG_0016.png" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="dist/img/IMG_0017.png" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="dist/img/IMG_0018.png" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left " href="#myCarousel" 
+        data-slide="prev">&lsaquo;
+    </a>
+    <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;
+    </a>
+</div>
+	<br/>
+	
+<a href="success.jsp">跳转success</a>
+</div>
+
+		<script src="dist/js/jquery.min.js"></script>
+		<script src="dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
